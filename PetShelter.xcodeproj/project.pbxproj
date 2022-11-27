@@ -13,6 +13,7 @@
 		50F736B12932E29B005BC387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F736AF2932E29B005BC387 /* Main.storyboard */; };
 		50F736B32932E29E005BC387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F736B22932E29E005BC387 /* Assets.xcassets */; };
 		50F736B62932E29E005BC387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F736B42932E29E005BC387 /* LaunchScreen.storyboard */; };
+		50F736C32932E3A2005BC387 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736C22932E3A2005BC387 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50F736B22932E29E005BC387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F736B52932E29E005BC387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50F736B72932E29E005BC387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F736C22932E3A2005BC387 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		50F736A82932E29B005BC387 /* PetShelter */ = {
 			isa = PBXGroup;
 			children = (
-				50F736A92932E29B005BC387 /* AppDelegate.swift */,
-				50F736AB2932E29B005BC387 /* SceneDelegate.swift */,
-				50F736AD2932E29B005BC387 /* ViewController.swift */,
-				50F736AF2932E29B005BC387 /* Main.storyboard */,
+				50F736BD2932E2DB005BC387 /* Models */,
+				50F736BE2932E2F2005BC387 /* ViewControllers */,
+				50F736BF2932E322005BC387 /* StoryBoards */,
+				50F736C12932E36B005BC387 /* Services */,
+				50F736C02932E346005BC387 /* Delegates */,
 				50F736B22932E29E005BC387 /* Assets.xcassets */,
-				50F736B42932E29E005BC387 /* LaunchScreen.storyboard */,
 				50F736B72932E29E005BC387 /* Info.plist */,
 			);
 			path = PetShelter;
+			sourceTree = "<group>";
+		};
+		50F736BD2932E2DB005BC387 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50F736BE2932E2F2005BC387 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50F736AD2932E29B005BC387 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50F736BF2932E322005BC387 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				50F736AF2932E29B005BC387 /* Main.storyboard */,
+				50F736B42932E29E005BC387 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		50F736C02932E346005BC387 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				50F736A92932E29B005BC387 /* AppDelegate.swift */,
+				50F736AB2932E29B005BC387 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		50F736C12932E36B005BC387 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50F736C22932E3A2005BC387 /* DataSource.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +183,7 @@
 			files = (
 				50F736AE2932E29B005BC387 /* ViewController.swift in Sources */,
 				50F736AA2932E29B005BC387 /* AppDelegate.swift in Sources */,
+				50F736C32932E3A2005BC387 /* DataSource.swift in Sources */,
 				50F736AC2932E29B005BC387 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +337,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +346,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MPol.PetShelter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +368,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +377,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MPol.PetShelter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
