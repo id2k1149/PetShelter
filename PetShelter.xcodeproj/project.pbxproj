@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5050022D2932E63900840BC0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5050022C2932E63900840BC0 /* .gitignore */; };
 		50F736AA2932E29B005BC387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736A92932E29B005BC387 /* AppDelegate.swift */; };
 		50F736AC2932E29B005BC387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736AB2932E29B005BC387 /* SceneDelegate.swift */; };
 		50F736AE2932E29B005BC387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736AD2932E29B005BC387 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5050022C2932E63900840BC0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		50F736A62932E29B005BC387 /* PetShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F736A92932E29B005BC387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F736AB2932E29B005BC387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		50F7369D2932E29B005BC387 = {
 			isa = PBXGroup;
 			children = (
+				5050022C2932E63900840BC0 /* .gitignore */,
 				50F736A82932E29B005BC387 /* PetShelter */,
 				50F736A72932E29B005BC387 /* Products */,
 			);
@@ -168,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5050022D2932E63900840BC0 /* .gitignore in Resources */,
 				50F736B62932E29E005BC387 /* LaunchScreen.storyboard in Resources */,
 				50F736B32932E29E005BC387 /* Assets.xcassets in Resources */,
 				50F736B12932E29B005BC387 /* Main.storyboard in Resources */,
