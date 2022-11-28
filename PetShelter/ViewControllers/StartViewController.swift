@@ -9,9 +9,15 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+
+    @IBOutlet var stackOne: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        guard let startBackgound = UIImage(named: "start-screen-background") else { return }
+        stackOne.backgroundColor = UIColor(patternImage: startBackgound)
+        
     }
 
 
