@@ -9,11 +9,15 @@ import UIKit
 
 class StartViewController: UIViewController {
 
-
     @IBOutlet var stackOne: UIStackView!
+    @IBOutlet var makeFriendButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
+        
         
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
         stackOne.backgroundColor = UIColor(patternImage: startBackgound)
