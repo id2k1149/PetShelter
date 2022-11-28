@@ -18,6 +18,14 @@ class StartViewController: UIViewController {
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
         stackOne.backgroundColor = UIColor(patternImage: startBackgound)
         
+        // This will change the navigation bar background color
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor(patternImage: startBackgound)
+
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        
     }
 
 
