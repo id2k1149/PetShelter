@@ -12,7 +12,7 @@
 		50F3570E2934F91E00BB913E /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3570D2934F91E00BB913E /* Pet.swift */; };
 		50F736AA2932E29B005BC387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736A92932E29B005BC387 /* AppDelegate.swift */; };
 		50F736AC2932E29B005BC387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736AB2932E29B005BC387 /* SceneDelegate.swift */; };
-		50F736AE2932E29B005BC387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736AD2932E29B005BC387 /* ViewController.swift */; };
+		50F736AE2932E29B005BC387 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F736AD2932E29B005BC387 /* StartViewController.swift */; };
 		50F736B12932E29B005BC387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F736AF2932E29B005BC387 /* Main.storyboard */; };
 		50F736B32932E29E005BC387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F736B22932E29E005BC387 /* Assets.xcassets */; };
 		50F736B62932E29E005BC387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F736B42932E29E005BC387 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		50F736A62932E29B005BC387 /* PetShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F736A92932E29B005BC387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F736AB2932E29B005BC387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50F736AD2932E29B005BC387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50F736AD2932E29B005BC387 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		50F736B02932E29B005BC387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50F736B22932E29E005BC387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F736B52932E29E005BC387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		50F736BE2932E2F2005BC387 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				50F736AD2932E29B005BC387 /* ViewController.swift */,
+				50F736AD2932E29B005BC387 /* StartViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F736AE2932E29B005BC387 /* ViewController.swift in Sources */,
+				50F736AE2932E29B005BC387 /* StartViewController.swift in Sources */,
 				50F3570C2934F82F00BB913E /* Shelter.swift in Sources */,
 				50F736AA2932E29B005BC387 /* AppDelegate.swift in Sources */,
 				50F3570E2934F91E00BB913E /* Pet.swift in Sources */,
