@@ -18,7 +18,6 @@ class StartViewController: UIViewController {
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
-        
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
         stackOne.backgroundColor = UIColor(patternImage: startBackgound)
         
@@ -26,6 +25,7 @@ class StartViewController: UIViewController {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor(patternImage: startBackgound)
+        appearance.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
 
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
