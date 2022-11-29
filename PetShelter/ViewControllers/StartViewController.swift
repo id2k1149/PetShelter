@@ -26,7 +26,7 @@ class StartViewController: UIViewController {
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor(patternImage: startBackgound)
         appearance.titlePositionAdjustment.horizontal = CGFloat(-250)
-        appearance.titlePositionAdjustment.vertical = CGFloat(-8)
+        appearance.titlePositionAdjustment.vertical = CGFloat(8)
        
         appearance.titleTextAttributes = [
             NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30),
