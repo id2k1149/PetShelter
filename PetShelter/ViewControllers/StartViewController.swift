@@ -25,7 +25,8 @@ class StartViewController: UIViewController {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor(patternImage: startBackgound)
-        appearance.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
+        
+        appearance.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.systemYellow]
 
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
