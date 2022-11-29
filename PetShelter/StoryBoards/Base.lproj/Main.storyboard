@@ -97,10 +97,15 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub4-s9-exH" userLabel="Second View">
                                         <rect key="frame" x="0.0" y="730" width="430" height="894"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start-screen-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="utW-me-fdq">
+                                                <rect key="frame" x="95" y="383" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.01666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="ub4-s9-exH" firstAttribute="leading" secondItem="8sh-X5-Rwz" secondAttribute="leading" id="1Yf-yw-hC7"/>
                                     <constraint firstItem="ub4-s9-exH" firstAttribute="top" secondItem="pMN-es-ud6" secondAttribute="bottom" id="43B-pi-Kdb"/>
