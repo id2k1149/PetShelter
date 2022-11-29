@@ -9,7 +9,7 @@ import UIKit
 
 class StartViewController: UIViewController {
 
-    @IBOutlet var stackOne: UIStackView!
+    @IBOutlet var topView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
     
     
@@ -19,7 +19,7 @@ class StartViewController: UIViewController {
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
-        stackOne.backgroundColor = UIColor(patternImage: startBackgound)
+        topView.backgroundColor = UIColor(patternImage: startBackgound)
         
         // This will change the navigation bar background color
         let appearance = UINavigationBarAppearance()
@@ -35,7 +35,7 @@ class StartViewController: UIViewController {
 
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
-        
+         
         
     }
 
