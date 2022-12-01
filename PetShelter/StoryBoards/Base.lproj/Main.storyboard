@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LZ8-we-9z6">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ec2-M3-zMx">
-                                <rect key="frame" x="0.0" y="92" width="414" height="644"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zra-P9-YU6" userLabel="Main View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3100"/>
@@ -35,22 +35,23 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0m-o1-zGI">
-                                                                <rect key="frame" x="10" y="146.5" width="394" height="89.5"/>
+                                                                <rect key="frame" x="10" y="145" width="394" height="89.5"/>
                                                                 <string key="text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</string>
                                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-6i-JoW">
-                                                                <rect key="frame" x="82" y="313.5" width="250" height="48"/>
-                                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                                <rect key="frame" x="82" y="311" width="250" height="52"/>
+                                                                <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="4gP-CF-eAt"/>
+                                                                    <constraint firstAttribute="height" constant="52" id="a4V-qT-moD"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Make a friend">
-                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="start-screen-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="hEZ-Lv-l6Y">
@@ -79,7 +80,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="View 2">
-                                                <rect key="frame" x="0.0" y="800" width="414" height="1039"/>
+                                                <rect key="frame" x="0.0" y="798" width="414" height="1039"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the shelter “Cozy House”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-Ty-2kv">
                                                         <rect key="frame" x="107" y="43" width="200" height="57"/>
@@ -124,13 +125,18 @@
                                                     <constraint firstAttribute="height" constant="1039" id="jHM-4o-aDw"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="View 3">
+                                                <rect key="frame" x="87" y="1836" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="3100" id="6tQ-ny-hjE"/>
                                             <constraint firstAttribute="trailing" secondItem="uEs-gw-3x3" secondAttribute="trailing" id="Bnf-j4-408"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="JNB-Rc-sC4"/>
-                                            <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" id="NaZ-nS-ur7"/>
+                                            <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" constant="-2" id="NaZ-nS-ur7"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="top" secondItem="Zra-P9-YU6" secondAttribute="top" id="PhK-Uy-H2Q"/>
                                             <constraint firstAttribute="trailing" secondItem="2Pa-Pe-HC2" secondAttribute="trailing" id="VpV-Zk-74p"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="uhD-Qk-8B0"/>
@@ -165,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-pg-YHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2586.9565217391305" y="-713.31521739130437"/>
+            <point key="canvasLocation" x="2585.5999999999999" y="-713.3433283358321"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CJa-fP-Vl6">
@@ -173,8 +179,12 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LZ8-we-9z6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1bQ-FC-Wui">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                            <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -194,9 +204,6 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
