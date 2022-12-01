@@ -29,7 +29,7 @@ class StartViewController: UIViewController {
         galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
         
         
-        galleryCollectionView.set(cells: Pet.fetchPets())
+//        galleryCollectionView.set(cells: Pet.fetchPets())
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
