@@ -25,24 +25,24 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="View 1">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-Sz-EpE">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-Sz-EpE">
                                                         <rect key="frame" x="0.0" y="50" width="414" height="750"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Not only people need a house" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-6G-HO5">
-                                                                <rect key="frame" x="83" y="0.0" width="248" height="62"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                                <rect key="frame" x="83" y="0.0" width="248" height="68.5"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9m-LF-bgP">
-                                                                <rect key="frame" x="20.5" y="132" width="373" height="119.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0m-o1-zGI">
+                                                                <rect key="frame" x="10" y="146.5" width="394" height="89.5"/>
                                                                 <string key="text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</string>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-6i-JoW">
-                                                                <rect key="frame" x="82" y="321.5" width="250" height="48"/>
+                                                                <rect key="frame" x="82" y="313.5" width="250" height="48"/>
                                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="4gP-CF-eAt"/>
@@ -63,6 +63,9 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="750" id="ER3-Hu-V32"/>
                                                             <constraint firstItem="hEZ-Lv-l6Y" firstAttribute="width" secondItem="nMD-Sz-EpE" secondAttribute="width" multiplier="0.75" id="SIb-2n-Z9K"/>
+                                                            <constraint firstAttribute="trailing" secondItem="y0m-o1-zGI" secondAttribute="trailing" constant="10" id="bsP-hH-yWa"/>
+                                                            <constraint firstItem="tAV-6G-HO5" firstAttribute="width" secondItem="nMD-Sz-EpE" secondAttribute="width" multiplier="0.6" id="k3k-3H-BLs"/>
+                                                            <constraint firstItem="y0m-o1-zGI" firstAttribute="leading" secondItem="nMD-Sz-EpE" secondAttribute="leading" constant="10" id="ypV-aE-7sx"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
@@ -147,8 +150,6 @@
                         <constraints>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="trailing" secondItem="VEU-rS-GcA" secondAttribute="trailing" id="Fb2-wS-Zkl"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="leading" secondItem="FgM-OP-OuT" secondAttribute="leading" id="IlD-AI-S4i"/>
-                            <constraint firstItem="tAV-6G-HO5" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" multiplier="1.8:3" id="R4a-gB-WrV"/>
-                            <constraint firstItem="V9m-LF-bgP" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" multiplier="0.9" id="Weq-gH-a4I"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="bottom" secondItem="VEU-rS-GcA" secondAttribute="bottom" id="ao4-uH-w4G"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="top" secondItem="VEU-rS-GcA" secondAttribute="top" id="fvl-dD-VIh"/>
                             <constraint firstItem="Zra-P9-YU6" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" id="oZH-nv-QPa"/>
