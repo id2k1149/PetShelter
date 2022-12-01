@@ -36,4 +36,8 @@ final class Pet {
         self.deseases = deseases
         self.parasites = parasites
     }
+    
+    static func fetchPets() -> [Pet] {
+        DataStore.shared.pets
+    }
 }

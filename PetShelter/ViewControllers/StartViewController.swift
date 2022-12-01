@@ -13,10 +13,23 @@ class StartViewController: UIViewController {
     @IBOutlet var topView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
     
-//    private var galleryCollectionView = GalleryCollectionView()
+    @IBOutlet var ourFriendsLabel: UILabel!
+    
+    
+    private var galleryCollectionView = GalleryCollectionView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addSubview(galleryCollectionView)
+        
+        galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
+        galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
+        
+        
+        galleryCollectionView.set(cells: Pet.fetchPets())
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         

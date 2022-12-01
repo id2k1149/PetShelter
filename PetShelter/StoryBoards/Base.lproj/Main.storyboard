@@ -206,6 +206,7 @@ are looking for a house</string>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
                         <outlet property="makeFriendButton" destination="vEL-6i-JoW" id="8er-ZO-2Zr"/>
+                        <outlet property="ourFriendsLabel" destination="XFx-Xw-q1T" id="C32-CX-z1q"/>
                         <outlet property="scrollView" destination="ec2-M3-zMx" id="juz-oR-Ehp"/>
                         <outlet property="topView" destination="2Pa-Pe-HC2" id="YE1-Hx-dA7"/>
                     </connections>
