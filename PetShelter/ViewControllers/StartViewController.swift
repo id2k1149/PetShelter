@@ -9,11 +9,11 @@ import UIKit
 
 class StartViewController: UIViewController {
 
-    
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var topView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
     
+//    private var galleryCollectionView = GalleryCollectionView()
     
     override func viewDidLoad() {
         super.viewDidLoad()

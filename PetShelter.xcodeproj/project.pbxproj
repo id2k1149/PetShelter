@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50334A9B2939167B00DD08CE /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50334A9A2939167B00DD08CE /* GalleryCollectionView.swift */; };
 		5050022D2932E63900840BC0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5050022C2932E63900840BC0 /* .gitignore */; };
 		50F3570C2934F82F00BB913E /* Shelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3570B2934F82F00BB913E /* Shelter.swift */; };
 		50F3570E2934F91E00BB913E /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3570D2934F91E00BB913E /* Pet.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50334A9A2939167B00DD08CE /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
 		5050022C2932E63900840BC0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		50F3570B2934F82F00BB913E /* Shelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelter.swift; sourceTree = "<group>"; };
 		50F3570D2934F91E00BB913E /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				50F736AD2932E29B005BC387 /* StartViewController.swift */,
+				50334A9A2939167B00DD08CE /* GalleryCollectionView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50334A9B2939167B00DD08CE /* GalleryCollectionView.swift in Sources */,
 				50F736AE2932E29B005BC387 /* StartViewController.swift in Sources */,
 				50F3570C2934F82F00BB913E /* Shelter.swift in Sources */,
 				50F736AA2932E29B005BC387 /* AppDelegate.swift in Sources */,

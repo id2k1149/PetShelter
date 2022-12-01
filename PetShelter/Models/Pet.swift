@@ -6,6 +6,7 @@
 //
 
 final class Pet {
+    let image: String
     let name: String
     let animal: String
     let breed: String
@@ -15,14 +16,17 @@ final class Pet {
     let deseases: [String]
     let parasites: [String]
     
-    init(name: String,
+    init(image: String,
+         name: String,
          animal: String,
          breed: String,
          info: String,
          age: Int,
          inoculations: [String],
          deseases: [String],
-         parasites: [String]) {
+         parasites: [String])
+    {
+        self.image = image
         self.name = name
         self.animal = animal
         self.breed = breed
