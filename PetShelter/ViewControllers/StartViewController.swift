@@ -33,7 +33,12 @@ class StartViewController: UIViewController {
        
         appearance.titleTextAttributes = [
             NSAttributedString.Key.font: UIFont.init(name: "Georgia", size: 30) as Any,
-            NSAttributedString.Key.foregroundColor: UIColor.systemYellow
+            NSAttributedString.Key.foregroundColor: UIColor(red: 241/255,
+                                                       green: 205/255,
+                                                       blue: 179/255,
+                                                       alpha: 1)
+            
+//            NSAttributedString.Key.foregroundColor: UIColor.systemYellow
         ]
 
         navigationController?.navigationBar.standardAppearance = appearance
