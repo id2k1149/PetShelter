@@ -8,6 +8,28 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="CJa-fP-Vl6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LZ8-we-9z6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1bQ-FC-Wui">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                            <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jSA-pz-NdY" kind="relationship" relationship="rootViewController" id="FaJ-0w-tUU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jqT-To-43P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="-713.31521739130437"/>
+        </scene>
         <!--Cozy House-->
         <scene sceneID="naM-kL-73J">
             <objects>
@@ -126,9 +148,24 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="View 3">
                                                 <rect key="frame" x="0.0" y="1842" width="414" height="791"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFx-Xw-q1T">
+                                                        <rect key="frame" x="46.5" y="42" width="321.5" height="73"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="ZAA-g1-Bv1"/>
+                                                        </constraints>
+                                                        <string key="text">Our friends who
+are looking for a house</string>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="32"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="791" id="4g2-Rf-jRK"/>
+                                                    <constraint firstItem="XFx-Xw-q1T" firstAttribute="centerX" secondItem="fpf-2w-5BG" secondAttribute="centerX" id="oTt-rn-vK5"/>
+                                                    <constraint firstItem="XFx-Xw-q1T" firstAttribute="top" secondItem="fpf-2w-5BG" secondAttribute="top" constant="42" id="vd4-tF-QKp"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -176,28 +213,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-pg-YHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2585.5999999999999" y="-713.3433283358321"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="CJa-fP-Vl6">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LZ8-we-9z6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1bQ-FC-Wui">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
-                            <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="jSA-pz-NdY" kind="relationship" relationship="rootViewController" id="FaJ-0w-tUU"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jqT-To-43P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1805.7971014492755" y="-713.31521739130437"/>
         </scene>
     </scenes>
     <resources>
