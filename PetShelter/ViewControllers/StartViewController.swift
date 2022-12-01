@@ -32,7 +32,7 @@ class StartViewController: UIViewController {
         appearance.titlePositionAdjustment.vertical = CGFloat(8)
        
         appearance.titleTextAttributes = [
-            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30),
+            NSAttributedString.Key.font: UIFont.init(name: "Georgia", size: 30) as Any,
             NSAttributedString.Key.foregroundColor: UIColor.systemYellow
         ]
 
