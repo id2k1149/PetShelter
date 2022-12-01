@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LZ8-we-9z6">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ec2-M3-zMx">
-                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="644"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zra-P9-YU6" userLabel="Main View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3100"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="View 1">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
@@ -29,20 +29,20 @@
                                                         <rect key="frame" x="0.0" y="50" width="414" height="750"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Not only people need a house" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-6G-HO5">
-                                                                <rect key="frame" x="82.666666666666671" y="0.0" width="248.66666666666663" height="62"/>
+                                                                <rect key="frame" x="83" y="0.0" width="248" height="62"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9m-LF-bgP">
-                                                                <rect key="frame" x="20.666666666666657" y="132" width="372.66666666666674" height="119.66666666666669"/>
+                                                                <rect key="frame" x="20.5" y="132" width="373" height="119.5"/>
                                                                 <string key="text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-6i-JoW">
-                                                                <rect key="frame" x="82" y="321.66666666666669" width="250" height="48"/>
+                                                                <rect key="frame" x="82" y="321.5" width="250" height="48"/>
                                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="4gP-CF-eAt"/>
@@ -54,7 +54,7 @@
                                                                 </state>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="start-screen-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="hEZ-Lv-l6Y">
-                                                                <rect key="frame" x="51.666666666666657" y="439.66666666666663" width="310.66666666666674" height="310.33333333333337"/>
+                                                                <rect key="frame" x="52" y="439.5" width="310.5" height="310.5"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="hEZ-Lv-l6Y" secondAttribute="height" multiplier="1:1" id="iyx-6K-pWV"/>
                                                                 </constraints>
@@ -76,16 +76,55 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="View 2">
-                                                <rect key="frame" x="0.0" y="800" width="414" height="800"/>
+                                                <rect key="frame" x="0.0" y="800" width="414" height="1039"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the shelter “Cozy House”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-Ty-2kv">
+                                                        <rect key="frame" x="107" y="43" width="200" height="57"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="Ecs-p2-p0X"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-Cq-FtG">
+                                                        <rect key="frame" x="25" y="125" width="364" height="172.5"/>
+                                                        <string key="text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</string>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGD-3K-C6O">
+                                                        <rect key="frame" x="25" y="319.5" width="364" height="270.5"/>
+                                                        <string key="text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</string>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about-pets" translatesAutoresizingMaskIntoConstraints="NO" id="6qq-d9-djT">
+                                                        <rect key="frame" x="30" y="632" width="354" height="408"/>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="800" id="jHM-4o-aDw"/>
+                                                    <constraint firstItem="Yc0-Ty-2kv" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="top" constant="43" id="1Ic-0E-7dW"/>
+                                                    <constraint firstItem="Iqg-Cq-FtG" firstAttribute="top" secondItem="Yc0-Ty-2kv" secondAttribute="bottom" constant="25" id="1pJ-oI-Et1"/>
+                                                    <constraint firstItem="Iqg-Cq-FtG" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="25" id="9iR-Ik-7zB"/>
+                                                    <constraint firstItem="Yc0-Ty-2kv" firstAttribute="centerX" secondItem="uEs-gw-3x3" secondAttribute="centerX" id="Ecu-my-eoo"/>
+                                                    <constraint firstItem="6qq-d9-djT" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="30" id="HyT-bv-fSK"/>
+                                                    <constraint firstItem="pGD-3K-C6O" firstAttribute="top" secondItem="Iqg-Cq-FtG" secondAttribute="bottom" constant="22" id="NSX-vW-bJ9"/>
+                                                    <constraint firstItem="6qq-d9-djT" firstAttribute="top" secondItem="pGD-3K-C6O" secondAttribute="bottom" constant="42" id="NkT-Wt-RNs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="pGD-3K-C6O" secondAttribute="trailing" constant="25" id="R51-zJ-wV6"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Iqg-Cq-FtG" secondAttribute="trailing" constant="25" id="TmS-vN-0Q9"/>
+                                                    <constraint firstAttribute="trailing" secondItem="6qq-d9-djT" secondAttribute="trailing" constant="30" id="Vu2-n9-DT8"/>
+                                                    <constraint firstItem="pGD-3K-C6O" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="25" id="fcX-BQ-euA"/>
+                                                    <constraint firstAttribute="height" constant="1039" id="jHM-4o-aDw"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2100" id="6tQ-ny-hjE"/>
+                                            <constraint firstAttribute="height" constant="3100" id="6tQ-ny-hjE"/>
                                             <constraint firstAttribute="trailing" secondItem="uEs-gw-3x3" secondAttribute="trailing" id="Bnf-j4-408"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="JNB-Rc-sC4"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" id="NaZ-nS-ur7"/>
@@ -125,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-pg-YHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2588" y="-713"/>
+            <point key="canvasLocation" x="2586.9565217391305" y="-713.31521739130437"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CJa-fP-Vl6">
@@ -133,7 +172,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LZ8-we-9z6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1bQ-FC-Wui">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -147,6 +186,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="about-pets" width="300" height="408"/>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
