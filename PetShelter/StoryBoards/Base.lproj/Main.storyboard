@@ -80,10 +80,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="View 2">
-                                                <rect key="frame" x="0.0" y="798" width="414" height="1039"/>
+                                                <rect key="frame" x="0.0" y="800" width="414" height="1042"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the shelter “Cozy House”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-Ty-2kv">
-                                                        <rect key="frame" x="107" y="43" width="200" height="57"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="About the shelter “Cozy House”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-Ty-2kv">
+                                                        <rect key="frame" x="107" y="42" width="200" height="57"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="200" id="Ecs-p2-p0X"/>
                                                         </constraints>
@@ -91,44 +91,46 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-Cq-FtG">
-                                                        <rect key="frame" x="25" y="125" width="364" height="172.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-Cq-FtG">
+                                                        <rect key="frame" x="25" y="124" width="364" height="172.5"/>
                                                         <string key="text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</string>
                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGD-3K-C6O">
-                                                        <rect key="frame" x="25" y="319.5" width="364" height="270.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGD-3K-C6O">
+                                                        <rect key="frame" x="25" y="318.5" width="364" height="273.5"/>
                                                         <string key="text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</string>
                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about-pets" translatesAutoresizingMaskIntoConstraints="NO" id="6qq-d9-djT">
-                                                        <rect key="frame" x="30" y="632" width="354" height="408"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="about-pets" translatesAutoresizingMaskIntoConstraints="NO" id="6qq-d9-djT">
+                                                        <rect key="frame" x="30" y="634" width="354" height="408"/>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="Yc0-Ty-2kv" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="top" constant="43" id="1Ic-0E-7dW"/>
+                                                    <constraint firstItem="Yc0-Ty-2kv" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="top" constant="42" id="1Ic-0E-7dW"/>
                                                     <constraint firstItem="Iqg-Cq-FtG" firstAttribute="top" secondItem="Yc0-Ty-2kv" secondAttribute="bottom" constant="25" id="1pJ-oI-Et1"/>
                                                     <constraint firstItem="Iqg-Cq-FtG" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="25" id="9iR-Ik-7zB"/>
                                                     <constraint firstItem="Yc0-Ty-2kv" firstAttribute="centerX" secondItem="uEs-gw-3x3" secondAttribute="centerX" id="Ecu-my-eoo"/>
                                                     <constraint firstItem="6qq-d9-djT" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="30" id="HyT-bv-fSK"/>
                                                     <constraint firstItem="pGD-3K-C6O" firstAttribute="top" secondItem="Iqg-Cq-FtG" secondAttribute="bottom" constant="22" id="NSX-vW-bJ9"/>
                                                     <constraint firstItem="6qq-d9-djT" firstAttribute="top" secondItem="pGD-3K-C6O" secondAttribute="bottom" constant="42" id="NkT-Wt-RNs"/>
+                                                    <constraint firstAttribute="bottom" secondItem="6qq-d9-djT" secondAttribute="bottom" id="Qh6-65-rDb"/>
                                                     <constraint firstAttribute="trailing" secondItem="pGD-3K-C6O" secondAttribute="trailing" constant="25" id="R51-zJ-wV6"/>
                                                     <constraint firstAttribute="trailing" secondItem="Iqg-Cq-FtG" secondAttribute="trailing" constant="25" id="TmS-vN-0Q9"/>
                                                     <constraint firstAttribute="trailing" secondItem="6qq-d9-djT" secondAttribute="trailing" constant="30" id="Vu2-n9-DT8"/>
                                                     <constraint firstItem="pGD-3K-C6O" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="25" id="fcX-BQ-euA"/>
-                                                    <constraint firstAttribute="height" constant="1039" id="jHM-4o-aDw"/>
+                                                    <constraint firstAttribute="height" constant="1042" id="jHM-4o-aDw"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="View 3">
-                                                <rect key="frame" x="87" y="1836" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="View 3">
+                                                <rect key="frame" x="0.0" y="1842" width="414" height="791"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="791" id="4g2-Rf-jRK"/>
+                                                </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -136,9 +138,12 @@
                                             <constraint firstAttribute="height" constant="3100" id="6tQ-ny-hjE"/>
                                             <constraint firstAttribute="trailing" secondItem="uEs-gw-3x3" secondAttribute="trailing" id="Bnf-j4-408"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="JNB-Rc-sC4"/>
-                                            <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" constant="-2" id="NaZ-nS-ur7"/>
+                                            <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" id="NaZ-nS-ur7"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="top" secondItem="Zra-P9-YU6" secondAttribute="top" id="PhK-Uy-H2Q"/>
+                                            <constraint firstItem="fpf-2w-5BG" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="SFR-hP-JV4"/>
                                             <constraint firstAttribute="trailing" secondItem="2Pa-Pe-HC2" secondAttribute="trailing" id="VpV-Zk-74p"/>
+                                            <constraint firstItem="fpf-2w-5BG" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="bottom" id="dcd-n0-mdo"/>
+                                            <constraint firstAttribute="trailing" secondItem="fpf-2w-5BG" secondAttribute="trailing" id="tKg-Ab-AvT"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="uhD-Qk-8B0"/>
                                         </constraints>
                                     </view>
@@ -205,8 +210,8 @@
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
