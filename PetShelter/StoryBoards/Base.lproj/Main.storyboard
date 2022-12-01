@@ -99,7 +99,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGD-3K-C6O">
-                                                        <rect key="frame" x="25" y="318.5" width="364" height="273.5"/>
+                                                        <rect key="frame" x="25" y="318.5" width="364" height="270.5"/>
                                                         <string key="text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</string>
                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
                                                         <nil key="textColor"/>
@@ -112,12 +112,11 @@
                                                 <constraints>
                                                     <constraint firstItem="Yc0-Ty-2kv" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="top" constant="42" id="1Ic-0E-7dW"/>
                                                     <constraint firstItem="Iqg-Cq-FtG" firstAttribute="top" secondItem="Yc0-Ty-2kv" secondAttribute="bottom" constant="25" id="1pJ-oI-Et1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="6qq-d9-djT" secondAttribute="bottom" id="2q6-Oc-tZ1"/>
                                                     <constraint firstItem="Iqg-Cq-FtG" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="25" id="9iR-Ik-7zB"/>
                                                     <constraint firstItem="Yc0-Ty-2kv" firstAttribute="centerX" secondItem="uEs-gw-3x3" secondAttribute="centerX" id="Ecu-my-eoo"/>
                                                     <constraint firstItem="6qq-d9-djT" firstAttribute="leading" secondItem="uEs-gw-3x3" secondAttribute="leading" constant="30" id="HyT-bv-fSK"/>
                                                     <constraint firstItem="pGD-3K-C6O" firstAttribute="top" secondItem="Iqg-Cq-FtG" secondAttribute="bottom" constant="22" id="NSX-vW-bJ9"/>
-                                                    <constraint firstItem="6qq-d9-djT" firstAttribute="top" secondItem="pGD-3K-C6O" secondAttribute="bottom" constant="42" id="NkT-Wt-RNs"/>
-                                                    <constraint firstAttribute="bottom" secondItem="6qq-d9-djT" secondAttribute="bottom" id="Qh6-65-rDb"/>
                                                     <constraint firstAttribute="trailing" secondItem="pGD-3K-C6O" secondAttribute="trailing" constant="25" id="R51-zJ-wV6"/>
                                                     <constraint firstAttribute="trailing" secondItem="Iqg-Cq-FtG" secondAttribute="trailing" constant="25" id="TmS-vN-0Q9"/>
                                                     <constraint firstAttribute="trailing" secondItem="6qq-d9-djT" secondAttribute="trailing" constant="30" id="Vu2-n9-DT8"/>
