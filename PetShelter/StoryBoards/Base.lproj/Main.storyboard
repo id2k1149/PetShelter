@@ -8,25 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="fMq-rW-n3B">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8nr-Ss-0P0" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jjf-mL-WBH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
-                            <color key="textColor" systemColor="systemYellowColor"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9hC-Z7-Xyr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16.875" y="-34.859154929577464"/>
-        </scene>
         <!--Cozy House-->
         <scene sceneID="naM-kL-73J">
             <objects>
@@ -42,26 +23,26 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="View 1">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="700"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-Sz-EpE">
-                                                        <rect key="frame" x="0.0" y="30" width="414" height="717"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-Sz-EpE">
+                                                        <rect key="frame" x="0.0" y="50" width="414" height="750"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Not only people need a house" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-6G-HO5">
-                                                                <rect key="frame" x="82.666666666666671" y="0.0" width="248.66666666666663" height="69.333333333333329"/>
+                                                                <rect key="frame" x="82.666666666666671" y="0.0" width="248.66666666666663" height="62"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9m-LF-bgP">
-                                                                <rect key="frame" x="10.333333333333343" y="99.333333333333343" width="393.33333333333326" height="95.666666666666657"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9m-LF-bgP">
+                                                                <rect key="frame" x="20.666666666666657" y="132" width="372.66666666666674" height="119.66666666666669"/>
                                                                 <string key="text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-6i-JoW">
-                                                                <rect key="frame" x="82" y="225" width="250" height="48"/>
+                                                                <rect key="frame" x="82" y="321.66666666666669" width="250" height="48"/>
                                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="4gP-CF-eAt"/>
@@ -73,27 +54,29 @@
                                                                 </state>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="start-screen-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="hEZ-Lv-l6Y">
-                                                                <rect key="frame" x="0.0" y="303" width="414" height="414"/>
+                                                                <rect key="frame" x="51.666666666666657" y="439.66666666666663" width="310.66666666666674" height="310.33333333333337"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="hEZ-Lv-l6Y" secondAttribute="height" multiplier="1:1" id="iyx-6K-pWV"/>
                                                                 </constraints>
                                                             </imageView>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstItem="hEZ-Lv-l6Y" firstAttribute="width" secondItem="hEZ-Lv-l6Y" secondAttribute="height" multiplier="1:1" id="2xm-eA-Zib"/>
+                                                            <constraint firstAttribute="height" constant="750" id="ER3-Hu-V32"/>
+                                                            <constraint firstItem="hEZ-Lv-l6Y" firstAttribute="width" secondItem="nMD-Sz-EpE" secondAttribute="width" multiplier="0.75" id="SIb-2n-Z9K"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                                 <constraints>
+                                                    <constraint firstItem="nMD-Sz-EpE" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="top" constant="50" id="FIq-2B-itj"/>
                                                     <constraint firstItem="nMD-Sz-EpE" firstAttribute="leading" secondItem="2Pa-Pe-HC2" secondAttribute="leading" id="IAI-jo-kQk"/>
-                                                    <constraint firstItem="nMD-Sz-EpE" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="top" constant="30" id="WcM-pf-nv5"/>
-                                                    <constraint firstAttribute="height" constant="700" id="bdl-cS-LFJ"/>
+                                                    <constraint firstItem="nMD-Sz-EpE" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="top" constant="50" id="WcM-pf-nv5"/>
+                                                    <constraint firstAttribute="height" constant="800" id="riJ-1p-gaa"/>
                                                     <constraint firstAttribute="trailing" secondItem="nMD-Sz-EpE" secondAttribute="trailing" id="sNw-BQ-z1a"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="View 2">
-                                                <rect key="frame" x="0.0" y="700" width="414" height="800"/>
+                                                <rect key="frame" x="0.0" y="800" width="414" height="800"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="800" id="jHM-4o-aDw"/>
@@ -126,7 +109,7 @@
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="trailing" secondItem="VEU-rS-GcA" secondAttribute="trailing" id="Fb2-wS-Zkl"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="leading" secondItem="FgM-OP-OuT" secondAttribute="leading" id="IlD-AI-S4i"/>
                             <constraint firstItem="tAV-6G-HO5" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" multiplier="1.8:3" id="R4a-gB-WrV"/>
-                            <constraint firstItem="V9m-LF-bgP" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" multiplier="0.95" id="Weq-gH-a4I"/>
+                            <constraint firstItem="V9m-LF-bgP" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" multiplier="0.9" id="Weq-gH-a4I"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="bottom" secondItem="VEU-rS-GcA" secondAttribute="bottom" id="ao4-uH-w4G"/>
                             <constraint firstItem="ec2-M3-zMx" firstAttribute="top" secondItem="VEU-rS-GcA" secondAttribute="top" id="fvl-dD-VIh"/>
                             <constraint firstItem="Zra-P9-YU6" firstAttribute="width" secondItem="FgM-OP-OuT" secondAttribute="width" id="oZH-nv-QPa"/>
@@ -176,9 +159,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
