@@ -305,20 +305,17 @@ make a donation</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Sbx-f4-itl" userLabel="Boston Stack View">
-                                                        <rect key="frame" x="24" y="384" width="318" height="52.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="phone Stack View">
+                                                        <rect key="frame" x="10" y="402" width="394" height="52.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-marker" translatesAutoresizingMaskIntoConstraints="NO" id="w7T-vh-oSh">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-marker" translatesAutoresizingMaskIntoConstraints="NO" id="eFU-d5-GdU">
                                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="52.5"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="40" id="zPb-SK-Me6"/>
+                                                                    <constraint firstAttribute="width" constant="40" id="POJ-MV-4H8"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Central Street, Boston (entrance from the store)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIw-ZB-ecN">
-                                                                <rect key="frame" x="60" y="0.0" width="258" height="52.5"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="258" id="d3p-n0-b9r"/>
-                                                                </constraints>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Central Street, Boston (entrance from the store)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-pb-BmO">
+                                                                <rect key="frame" x="60" y="0.0" width="334" height="52.5"/>
                                                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
                                                                 <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -328,18 +325,18 @@ make a donation</string>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="Sbx-f4-itl" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="0uI-9U-HAd"/>
                                                     <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Sbx-f4-itl" secondAttribute="trailing" constant="10" id="622-nV-5bj"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="15" id="73s-7v-w9D"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="top" secondItem="XNh-GQ-M4H" secondAttribute="top" constant="30" id="9vk-Xo-kvw"/>
+                                                    <constraint firstItem="hN8-uT-F7O" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="BCQ-7E-exe"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
+                                                    <constraint firstItem="hN8-uT-F7O" firstAttribute="top" secondItem="rs7-Qy-4gd" secondAttribute="bottom" constant="40" id="IwG-Xn-qhH"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="top" secondItem="VDD-4O-bwX" secondAttribute="bottom" constant="40" id="O81-1o-GDH"/>
-                                                    <constraint firstItem="Sbx-f4-itl" firstAttribute="top" secondItem="rs7-Qy-4gd" secondAttribute="bottom" constant="40" id="S4V-bt-Rcs"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
                                                     <constraint firstAttribute="trailing" secondItem="rs7-Qy-4gd" secondAttribute="trailing" constant="15" id="W9H-XV-1yV"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="top" secondItem="THo-3a-eds" secondAttribute="bottom" constant="40" id="ZRD-Gr-rT1"/>
                                                     <constraint firstAttribute="trailing" secondItem="VDD-4O-bwX" secondAttribute="trailing" constant="30" id="a0W-it-Vvm"/>
+                                                    <constraint firstAttribute="trailing" secondItem="hN8-uT-F7O" secondAttribute="trailing" constant="10" id="cLo-5y-W7k"/>
                                                     <constraint firstItem="VDD-4O-bwX" firstAttribute="top" secondItem="EEp-iQ-dsE" secondAttribute="bottom" constant="40" id="dTQ-PI-jcs"/>
                                                     <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
                                                     <constraint firstAttribute="trailing" secondItem="THo-3a-eds" secondAttribute="trailing" constant="21" id="mUw-eK-3JS"/>
