@@ -177,9 +177,83 @@ are looking for a house</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSF-UU-dfT" userLabel="Donation">
                                                 <rect key="frame" x="0.0" y="3378" width="414" height="543"/>
-                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWe-RG-4U7">
+                                                        <rect key="frame" x="0.0" y="21" width="414" height="75"/>
+                                                        <string key="text">You can also
+make a donation</string>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="33"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of the bank / Type of bank account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osa-T0-zy6">
+                                                        <rect key="frame" x="13" y="116" width="388" height="24"/>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDC-re-1Hx" userLabel="Credit Card">
+                                                        <rect key="frame" x="10" y="160" width="394" height="43"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2nw-EK-W6f">
+                                                                <rect key="frame" x="15" y="10" width="364" height="23"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="credit-card" translatesAutoresizingMaskIntoConstraints="NO" id="avM-NG-QV6">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="23"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="23" id="4ai-7O-MdZ"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xuv-4q-FXY">
+                                                                        <rect key="frame" x="45" y="0.0" width="319" height="23"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="23" id="dkc-mW-i3I"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstItem="2nw-EK-W6f" firstAttribute="top" secondItem="SDC-re-1Hx" secondAttribute="top" constant="10" id="4jE-Fd-Ch5"/>
+                                                            <constraint firstItem="2nw-EK-W6f" firstAttribute="leading" secondItem="SDC-re-1Hx" secondAttribute="leading" constant="15" id="DRo-HK-fGX"/>
+                                                            <constraint firstAttribute="height" constant="43" id="GyP-zk-qdI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2nw-EK-W6f" secondAttribute="trailing" constant="15" id="MA4-LQ-3f5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73P-UB-p3B">
+                                                        <rect key="frame" x="10" y="223" width="394" height="121"/>
+                                                        <string key="text">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</string>
+                                                        <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="18"/>
+                                                        <color key="textColor" red="0.69999999999999996" green="0.69999999999999996" blue="0.69999999999999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donation-dog" translatesAutoresizingMaskIntoConstraints="NO" id="mk3-Ws-Xzv">
+                                                        <rect key="frame" x="30" y="374" width="354" height="135"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="135.19999999999999" id="9Li-ML-r8P"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="SDC-re-1Hx" secondAttribute="trailing" constant="10" id="5GL-4X-Le5"/>
+                                                    <constraint firstItem="osa-T0-zy6" firstAttribute="top" secondItem="IWe-RG-4U7" secondAttribute="bottom" constant="20" id="BHp-6U-c67"/>
+                                                    <constraint firstItem="mk3-Ws-Xzv" firstAttribute="leading" secondItem="zSF-UU-dfT" secondAttribute="leading" constant="30" id="EYU-yQ-AeN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="mk3-Ws-Xzv" secondAttribute="trailing" constant="30" id="Ezj-IL-Uy8"/>
                                                     <constraint firstAttribute="height" constant="543" id="Obw-b5-MaP"/>
+                                                    <constraint firstAttribute="trailing" secondItem="73P-UB-p3B" secondAttribute="trailing" constant="10" id="TaH-T6-lxp"/>
+                                                    <constraint firstItem="SDC-re-1Hx" firstAttribute="leading" secondItem="zSF-UU-dfT" secondAttribute="leading" constant="10" id="X2n-YK-qXl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="osa-T0-zy6" secondAttribute="trailing" constant="13" id="Z5C-8L-gdl"/>
+                                                    <constraint firstItem="IWe-RG-4U7" firstAttribute="top" secondItem="zSF-UU-dfT" secondAttribute="top" constant="21" id="aPq-Dj-fwD"/>
+                                                    <constraint firstItem="mk3-Ws-Xzv" firstAttribute="top" secondItem="73P-UB-p3B" secondAttribute="bottom" constant="30" id="bhp-gD-x5l"/>
+                                                    <constraint firstItem="IWe-RG-4U7" firstAttribute="leading" secondItem="zSF-UU-dfT" secondAttribute="leading" id="eaq-Pr-FrN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="IWe-RG-4U7" secondAttribute="trailing" id="gpE-Tw-w0N"/>
+                                                    <constraint firstItem="73P-UB-p3B" firstAttribute="leading" secondItem="zSF-UU-dfT" secondAttribute="leading" constant="10" id="iH4-EI-tuA"/>
+                                                    <constraint firstItem="osa-T0-zy6" firstAttribute="leading" secondItem="zSF-UU-dfT" secondAttribute="leading" constant="13" id="mfk-ZU-Pb1"/>
+                                                    <constraint firstItem="73P-UB-p3B" firstAttribute="top" secondItem="SDC-re-1Hx" secondAttribute="bottom" constant="20" id="vyH-tS-kLu"/>
+                                                    <constraint firstItem="SDC-re-1Hx" firstAttribute="top" secondItem="osa-T0-zy6" secondAttribute="bottom" constant="20" id="yYI-aG-oLi"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-GQ-M4H" userLabel="Footer">
@@ -248,6 +322,8 @@ are looking for a house</string>
     </scenes>
     <resources>
         <image name="about-pets" width="300" height="408"/>
+        <image name="credit-card" width="30" height="23"/>
+        <image name="donation-dog" width="505" height="261"/>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -260,9 +336,6 @@ are looking for a house</string>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
