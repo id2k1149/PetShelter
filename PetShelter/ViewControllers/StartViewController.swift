@@ -10,9 +10,12 @@ import UIKit
 class StartViewController: UIViewController {
 
     @IBOutlet var scrollView: UIScrollView!
-    @IBOutlet var topView: UIView!
+    @IBOutlet var startScreenView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
     @IBOutlet var ourFriendsLabel: UILabel!
+    
+    @IBOutlet var footerView: UIView!
+    
     
     private var galleryCollectionView = GalleryCollectionView()
     
@@ -30,9 +33,11 @@ class StartViewController: UIViewController {
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
+        //
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
         scrollView.backgroundColor = UIColor(patternImage: startBackgound)
-        topView.backgroundColor = UIColor(patternImage: startBackgound)
+        startScreenView.backgroundColor = UIColor(patternImage: startBackgound)
+        footerView.backgroundColor = UIColor(patternImage: startBackgound)
         
         // This will change the navigation bar background color
         let appearance = UINavigationBarAppearance()

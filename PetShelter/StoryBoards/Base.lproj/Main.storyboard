@@ -258,7 +258,7 @@ make a donation</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-GQ-M4H" userLabel="Footer">
                                                 <rect key="frame" x="0.0" y="3918" width="414" height="800"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
                                                 </constraints>
@@ -309,10 +309,11 @@ make a donation</string>
                     <navigationItem key="navigationItem" title="Cozy House" id="unL-Pv-5Ch"/>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
+                        <outlet property="footerView" destination="XNh-GQ-M4H" id="qeY-7h-xKn"/>
                         <outlet property="makeFriendButton" destination="vEL-6i-JoW" id="8er-ZO-2Zr"/>
                         <outlet property="ourFriendsLabel" destination="XFx-Xw-q1T" id="C32-CX-z1q"/>
                         <outlet property="scrollView" destination="ec2-M3-zMx" id="juz-oR-Ehp"/>
-                        <outlet property="topView" destination="2Pa-Pe-HC2" id="YE1-Hx-dA7"/>
+                        <outlet property="startScreenView" destination="2Pa-Pe-HC2" id="YE1-Hx-dA7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-pg-YHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
