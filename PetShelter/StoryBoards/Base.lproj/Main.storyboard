@@ -42,9 +42,9 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zra-P9-YU6" userLabel="Main View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="4800"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="View 1">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="Start Screen">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="nMD-Sz-EpE">
@@ -101,7 +101,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="nMD-Sz-EpE" secondAttribute="trailing" id="sNw-BQ-z1a"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="View 2">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-gw-3x3" userLabel="About">
                                                 <rect key="frame" x="0.0" y="800" width="414" height="1042"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="About the shelter “Cozy House”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yc0-Ty-2kv">
@@ -146,7 +146,7 @@
                                                     <constraint firstAttribute="height" constant="1042" id="jHM-4o-aDw"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="View 3">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpf-2w-5BG" userLabel="Pets">
                                                 <rect key="frame" x="0.0" y="1842" width="414" height="791"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFx-Xw-q1T">
@@ -168,29 +168,49 @@ are looking for a house</string>
                                                     <constraint firstItem="XFx-Xw-q1T" firstAttribute="top" secondItem="fpf-2w-5BG" secondAttribute="top" constant="42" id="vd4-tF-QKp"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAq-Y0-CwS" userLabel="View 4">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAq-Y0-CwS" userLabel="Help">
                                                 <rect key="frame" x="0.0" y="2633" width="414" height="745"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="745" id="M4f-hP-EqX"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSF-UU-dfT" userLabel="Donation">
+                                                <rect key="frame" x="0.0" y="3378" width="414" height="543"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="543" id="Obw-b5-MaP"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-GQ-M4H" userLabel="Footer">
+                                                <rect key="frame" x="0.0" y="3918" width="414" height="800"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3100" id="6tQ-ny-hjE"/>
+                                            <constraint firstAttribute="height" constant="4800" id="6tQ-ny-hjE"/>
                                             <constraint firstAttribute="trailing" secondItem="DAq-Y0-CwS" secondAttribute="trailing" id="8yQ-vc-fjm"/>
                                             <constraint firstAttribute="trailing" secondItem="uEs-gw-3x3" secondAttribute="trailing" id="Bnf-j4-408"/>
                                             <constraint firstItem="DAq-Y0-CwS" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="DIk-AU-OhL"/>
+                                            <constraint firstItem="zSF-UU-dfT" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="FPH-2s-g7X"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="JNB-Rc-sC4"/>
                                             <constraint firstItem="uEs-gw-3x3" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="bottom" id="NaZ-nS-ur7"/>
+                                            <constraint firstItem="XNh-GQ-M4H" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="NgM-V3-c2f"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="top" secondItem="Zra-P9-YU6" secondAttribute="top" id="PhK-Uy-H2Q"/>
                                             <constraint firstItem="fpf-2w-5BG" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="SFR-hP-JV4"/>
                                             <constraint firstAttribute="trailing" secondItem="2Pa-Pe-HC2" secondAttribute="trailing" id="VpV-Zk-74p"/>
+                                            <constraint firstItem="zSF-UU-dfT" firstAttribute="top" secondItem="DAq-Y0-CwS" secondAttribute="bottom" id="ZAg-E3-b2x"/>
+                                            <constraint firstAttribute="trailing" secondItem="XNh-GQ-M4H" secondAttribute="trailing" id="apL-tX-fag"/>
                                             <constraint firstItem="fpf-2w-5BG" firstAttribute="top" secondItem="uEs-gw-3x3" secondAttribute="bottom" id="dcd-n0-mdo"/>
                                             <constraint firstAttribute="trailing" secondItem="fpf-2w-5BG" secondAttribute="trailing" id="tKg-Ab-AvT"/>
+                                            <constraint firstAttribute="trailing" secondItem="zSF-UU-dfT" secondAttribute="trailing" id="uXY-oi-hCV"/>
                                             <constraint firstItem="2Pa-Pe-HC2" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="uhD-Qk-8B0"/>
                                             <constraint firstItem="DAq-Y0-CwS" firstAttribute="top" secondItem="fpf-2w-5BG" secondAttribute="bottom" id="zT6-Rc-5hg"/>
+                                            <constraint firstItem="XNh-GQ-M4H" firstAttribute="top" secondItem="DAq-Y0-CwS" secondAttribute="bottom" constant="540" id="zuW-VP-6gZ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -240,6 +260,9 @@ are looking for a house</string>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
