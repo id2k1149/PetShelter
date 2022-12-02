@@ -42,7 +42,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zra-P9-YU6" userLabel="Main View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="4800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="4797"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-Pe-HC2" userLabel="Start Screen">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
@@ -257,7 +257,7 @@ make a donation</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-GQ-M4H" userLabel="Footer">
-                                                <rect key="frame" x="0.0" y="3918" width="414" height="800"/>
+                                                <rect key="frame" x="0.0" y="3918" width="414" height="878"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For questions and suggestions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THo-3a-eds">
                                                         <rect key="frame" x="21" y="30" width="372" height="75"/>
@@ -339,15 +339,20 @@ make a donation</string>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footer-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-TN-Tmj">
+                                                        <rect key="frame" x="30" y="566.5" width="354" height="310"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
+                                                    <constraint firstItem="SdH-TN-Tmj" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="5tg-uW-9rQ"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="15" id="73s-7v-w9D"/>
                                                     <constraint firstItem="wjO-mi-sTS" firstAttribute="top" secondItem="hN8-uT-F7O" secondAttribute="bottom" constant="40" id="8zs-ii-i8R"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="top" secondItem="XNh-GQ-M4H" secondAttribute="top" constant="30" id="9vk-Xo-kvw"/>
                                                     <constraint firstItem="hN8-uT-F7O" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="BCQ-7E-exe"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="SdH-TN-Tmj" secondAttribute="trailing" constant="30" id="Hjf-eo-D4p"/>
                                                     <constraint firstItem="hN8-uT-F7O" firstAttribute="top" secondItem="rs7-Qy-4gd" secondAttribute="bottom" constant="40" id="IwG-Xn-qhH"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="top" secondItem="VDD-4O-bwX" secondAttribute="bottom" constant="40" id="O81-1o-GDH"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
@@ -357,16 +362,17 @@ make a donation</string>
                                                     <constraint firstAttribute="trailing" secondItem="wjO-mi-sTS" secondAttribute="trailing" constant="10" id="ay2-Ve-GVR"/>
                                                     <constraint firstAttribute="trailing" secondItem="hN8-uT-F7O" secondAttribute="trailing" constant="10" id="cLo-5y-W7k"/>
                                                     <constraint firstItem="VDD-4O-bwX" firstAttribute="top" secondItem="EEp-iQ-dsE" secondAttribute="bottom" constant="40" id="dTQ-PI-jcs"/>
-                                                    <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
+                                                    <constraint firstAttribute="height" constant="878" id="jAe-PH-JiG"/>
                                                     <constraint firstAttribute="trailing" secondItem="THo-3a-eds" secondAttribute="trailing" constant="21" id="mUw-eK-3JS"/>
                                                     <constraint firstItem="VDD-4O-bwX" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="wwD-9Y-ICM"/>
+                                                    <constraint firstItem="SdH-TN-Tmj" firstAttribute="top" secondItem="wjO-mi-sTS" secondAttribute="bottom" constant="40" id="x1j-SW-gVg"/>
                                                     <constraint firstItem="wjO-mi-sTS" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="xK7-ft-3jB"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="4800" id="6tQ-ny-hjE"/>
+                                            <constraint firstAttribute="height" constant="4797" id="6tQ-ny-hjE"/>
                                             <constraint firstAttribute="trailing" secondItem="DAq-Y0-CwS" secondAttribute="trailing" id="8yQ-vc-fjm"/>
                                             <constraint firstAttribute="trailing" secondItem="uEs-gw-3x3" secondAttribute="trailing" id="Bnf-j4-408"/>
                                             <constraint firstItem="DAq-Y0-CwS" firstAttribute="leading" secondItem="Zra-P9-YU6" secondAttribute="leading" id="DIk-AU-OhL"/>
@@ -425,6 +431,7 @@ make a donation</string>
         <image name="about-pets" width="300" height="408"/>
         <image name="credit-card" width="30" height="23"/>
         <image name="donation-dog" width="505" height="261"/>
+        <image name="footer-puppy" width="300" height="310"/>
         <image name="icon-email" width="40" height="32"/>
         <image name="icon-marker" width="22" height="32"/>
         <image name="icon-phone" width="40" height="32"/>
