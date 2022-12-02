@@ -28,8 +28,7 @@ class StartViewController: UIViewController {
         galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
         galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
         
-        
-//        galleryCollectionView.set(cells: Pet.fetchPets())
+        galleryCollectionView.set(cells: Pet.fetchPets())
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
@@ -51,7 +50,6 @@ class StartViewController: UIViewController {
                                                        blue: 179/255,
                                                        alpha: 1)
             
-//            NSAttributedString.Key.foregroundColor: UIColor.systemYellow
         ]
 
         navigationController?.navigationBar.standardAppearance = appearance

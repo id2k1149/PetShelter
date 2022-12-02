@@ -43,15 +43,20 @@ class GalleryCollectionView: UICollectionView,
         
     }
     
+    func set(cells: [Pet]) {
+        self.cells = cells
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        //        cells.count
-        5
+                cells.count
     }
     
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath)
-        //        cell.mainImageView.image = cells[indexPath.row].image
+        let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath) as! GalleryCollectionViewCell
+        cell.mainImageView.image = UIImage(named: cells[indexPath.row].image)
+
+        
         //                cell.nameLabel.text = cells[indexPath.row].sushiName
         //                cell.smallDescriptionLabel.text = cells[indexPath.row].smallDescription
         //                cell.costLabel.text = "$\(cells[indexPath.row].cost)"
@@ -69,9 +74,5 @@ class GalleryCollectionView: UICollectionView,
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    //    func set(cells: [Pet]) {
-    //        self.cells = cells
-    //    }
     
 }
