@@ -299,13 +299,22 @@ make a donation</string>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are waiting for your visit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs7-Qy-4gd">
+                                                        <rect key="frame" x="15" y="289" width="384" height="73"/>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="32"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
+                                                    <constraint firstItem="rs7-Qy-4gd" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="15" id="73s-7v-w9D"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="top" secondItem="XNh-GQ-M4H" secondAttribute="top" constant="30" id="9vk-Xo-kvw"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
+                                                    <constraint firstItem="rs7-Qy-4gd" firstAttribute="top" secondItem="VDD-4O-bwX" secondAttribute="bottom" constant="40" id="O81-1o-GDH"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rs7-Qy-4gd" secondAttribute="trailing" constant="15" id="W9H-XV-1yV"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="top" secondItem="THo-3a-eds" secondAttribute="bottom" constant="40" id="ZRD-Gr-rT1"/>
                                                     <constraint firstAttribute="trailing" secondItem="VDD-4O-bwX" secondAttribute="trailing" constant="30" id="a0W-it-Vvm"/>
                                                     <constraint firstItem="VDD-4O-bwX" firstAttribute="top" secondItem="EEp-iQ-dsE" secondAttribute="bottom" constant="40" id="dTQ-PI-jcs"/>
