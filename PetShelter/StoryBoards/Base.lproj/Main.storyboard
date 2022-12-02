@@ -258,9 +258,40 @@ make a donation</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNh-GQ-M4H" userLabel="Footer">
                                                 <rect key="frame" x="0.0" y="3918" width="414" height="800"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For questions and suggestions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THo-3a-eds">
+                                                        <rect key="frame" x="21" y="30" width="372" height="75"/>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="33"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-iQ-dsE">
+                                                        <rect key="frame" x="24" y="145" width="366" height="32"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-email" translatesAutoresizingMaskIntoConstraints="NO" id="nxv-xw-kKs">
+                                                                <rect key="frame" x="0.0" y="0.0" width="40" height="32"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="40" id="Qiw-R9-Qi3"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email@shelter.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAx-Z7-be4">
+                                                                <rect key="frame" x="60" y="0.0" width="306" height="32"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                                                <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
+                                                    <constraint firstItem="THo-3a-eds" firstAttribute="top" secondItem="XNh-GQ-M4H" secondAttribute="top" constant="30" id="9vk-Xo-kvw"/>
+                                                    <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
+                                                    <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
+                                                    <constraint firstItem="EEp-iQ-dsE" firstAttribute="top" secondItem="THo-3a-eds" secondAttribute="bottom" constant="40" id="ZRD-Gr-rT1"/>
                                                     <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="THo-3a-eds" secondAttribute="trailing" constant="21" id="mUw-eK-3JS"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -325,6 +356,7 @@ make a donation</string>
         <image name="about-pets" width="300" height="408"/>
         <image name="credit-card" width="30" height="23"/>
         <image name="donation-dog" width="505" height="261"/>
+        <image name="icon-email" width="40" height="32"/>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
