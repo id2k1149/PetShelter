@@ -92,7 +92,7 @@
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <color key="backgroundColor" red="0.29379251090000003" green="0.24983001939999999" blue="0.1883161984" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstItem="nMD-Sz-EpE" firstAttribute="top" secondItem="2Pa-Pe-HC2" secondAttribute="top" constant="50" id="FIq-2B-itj"/>
                                                     <constraint firstItem="nMD-Sz-EpE" firstAttribute="leading" secondItem="2Pa-Pe-HC2" secondAttribute="leading" id="IAI-jo-kQk"/>
@@ -547,7 +547,7 @@ make a donation</string>
                                                         <rect key="frame" x="30" y="566.5" width="354" height="310"/>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.29379251087554781" green="0.24983001935190269" blue="0.18831619842000594" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
                                                     <constraint firstItem="SdH-TN-Tmj" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="5tg-uW-9rQ"/>
@@ -651,9 +651,6 @@ make a donation</string>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
