@@ -265,7 +265,7 @@ make a donation</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-iQ-dsE">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-iQ-dsE" userLabel="email Stack View">
                                                         <rect key="frame" x="24" y="145" width="366" height="32"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-email" translatesAutoresizingMaskIntoConstraints="NO" id="nxv-xw-kKs">
@@ -282,6 +282,23 @@ make a donation</string>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-4O-bwX" userLabel="phone Stack View">
+                                                        <rect key="frame" x="30" y="217" width="354" height="32"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-phone" translatesAutoresizingMaskIntoConstraints="NO" id="IHR-wK-ths">
+                                                                <rect key="frame" x="0.0" y="0.0" width="40" height="32"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="40" id="RPl-WN-4HI"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+13 674 567 75 54" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mr-nf-kCR">
+                                                                <rect key="frame" x="60" y="0.0" width="294" height="32"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                                                <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -290,8 +307,11 @@ make a donation</string>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="top" secondItem="THo-3a-eds" secondAttribute="bottom" constant="40" id="ZRD-Gr-rT1"/>
+                                                    <constraint firstAttribute="trailing" secondItem="VDD-4O-bwX" secondAttribute="trailing" constant="30" id="a0W-it-Vvm"/>
+                                                    <constraint firstItem="VDD-4O-bwX" firstAttribute="top" secondItem="EEp-iQ-dsE" secondAttribute="bottom" constant="40" id="dTQ-PI-jcs"/>
                                                     <constraint firstAttribute="height" constant="800" id="jAe-PH-JiG"/>
                                                     <constraint firstAttribute="trailing" secondItem="THo-3a-eds" secondAttribute="trailing" constant="21" id="mUw-eK-3JS"/>
+                                                    <constraint firstItem="VDD-4O-bwX" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="wwD-9Y-ICM"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -357,6 +377,7 @@ make a donation</string>
         <image name="credit-card" width="30" height="23"/>
         <image name="donation-dog" width="505" height="261"/>
         <image name="icon-email" width="40" height="32"/>
+        <image name="icon-phone" width="40" height="32"/>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
