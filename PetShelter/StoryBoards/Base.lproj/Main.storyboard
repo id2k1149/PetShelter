@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LZ8-we-9z6">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,7 +14,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LZ8-we-9z6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1bQ-FC-Wui">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
@@ -170,9 +170,213 @@ are looking for a house</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAq-Y0-CwS" userLabel="Help">
                                                 <rect key="frame" x="0.0" y="2633" width="414" height="745"/>
-                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yG-On-HhO">
+                                                        <rect key="frame" x="84.5" y="42" width="245" height="70.5"/>
+                                                        <string key="text">How you can help
+our shelter</string>
+                                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="31"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="dLR-s9-g8G">
+                                                        <rect key="frame" x="62" y="133.5" width="290" height="612.5"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="SAf-pa-s25">
+                                                                <rect key="frame" x="0.0" y="0.0" width="290" height="98.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eIz-gJ-5ps">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-pet-food" translatesAutoresizingMaskIntoConstraints="NO" id="54u-40-AzR">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY4-fs-4Js">
+                                                                                <rect key="frame" x="35.5" y="80" width="59" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="Fve-77-aZb"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="N2S-3t-K6t">
+                                                                        <rect key="frame" x="160" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-transportation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpp-iI-L3c">
+                                                                                <rect key="frame" x="34.5" y="0.0" width="61" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6t-Bv-LHG">
+                                                                                <rect key="frame" x="11.5" y="80" width="107.5" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="UAA-Db-JPc"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Z8O-o6-YfT">
+                                                                <rect key="frame" x="0.0" y="128.5" width="290" height="98.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EBF-f9-lce">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-toys" translatesAutoresizingMaskIntoConstraints="NO" id="DTm-6s-6bv">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toys" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2B-xo-TW4">
+                                                                                <rect key="frame" x="48.5" y="80" width="33.5" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="xEV-Vo-zaa"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wRm-Sg-2CB">
+                                                                        <rect key="frame" x="160" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-bowls-and-cups" translatesAutoresizingMaskIntoConstraints="NO" id="IFM-gI-Vrz">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bowls and cups" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QQ-bs-xqE">
+                                                                                <rect key="frame" x="10.5" y="80" width="109.5" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="t3j-Nd-1Zs"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="euX-3e-Rj8">
+                                                                <rect key="frame" x="0.0" y="257" width="290" height="98.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IZo-ZI-OF0">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-shampoos" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-GE-aul">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shampoos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9L-C5-hOR">
+                                                                                <rect key="frame" x="28" y="80" width="74" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="pSL-RW-Mq9"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fQ7-B2-6c6">
+                                                                        <rect key="frame" x="160" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-vitamins" translatesAutoresizingMaskIntoConstraints="NO" id="I0I-L5-j17">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vitamins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sU-73-K2K">
+                                                                                <rect key="frame" x="33" y="80" width="64.5" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="8d2-WO-Q4r"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="e93-VW-ICd">
+                                                                <rect key="frame" x="0.0" y="385.5" width="290" height="98.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hZR-Ne-Nor">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-medicines" translatesAutoresizingMaskIntoConstraints="NO" id="Kc9-M6-IjU">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3t-kK-Vpa">
+                                                                                <rect key="frame" x="32" y="80" width="66" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="XLc-ge-lUe"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nWN-NL-Ta5">
+                                                                        <rect key="frame" x="160" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-collars-leashes" translatesAutoresizingMaskIntoConstraints="NO" id="p7f-32-dbn">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collars / leashes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvO-e5-bNE">
+                                                                                <rect key="frame" x="7" y="80" width="116.5" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="nxX-bU-FbG"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="rCV-lB-iLe">
+                                                                <rect key="frame" x="0.0" y="514" width="290" height="98.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0RY-4C-7Ko">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="98.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-sleeping-area" translatesAutoresizingMaskIntoConstraints="NO" id="Mmr-8v-Klu">
+                                                                                <rect key="frame" x="35" y="0.0" width="60" height="60"/>
+                                                                            </imageView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sleeping areas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDW-Gf-V2L">
+                                                                                <rect key="frame" x="14" y="80" width="102" height="18.5"/>
+                                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="e1g-w9-7Gu"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fUL-aG-I24">
+                                                                        <rect key="frame" x="160" y="0.0" width="130" height="98.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="130" id="LYX-he-NOL"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
                                                 <constraints>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8yG-On-HhO" secondAttribute="trailing" constant="50" id="3bN-dF-hhq"/>
+                                                    <constraint firstItem="dLR-s9-g8G" firstAttribute="top" secondItem="8yG-On-HhO" secondAttribute="bottom" constant="21" id="6wz-aB-Ft1"/>
+                                                    <constraint firstItem="8yG-On-HhO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DAq-Y0-CwS" secondAttribute="leading" constant="50" id="Jrv-2G-B5t"/>
                                                     <constraint firstAttribute="height" constant="745" id="M4f-hP-EqX"/>
+                                                    <constraint firstItem="8yG-On-HhO" firstAttribute="top" secondItem="DAq-Y0-CwS" secondAttribute="top" constant="42" id="Rt7-LK-Cgb"/>
+                                                    <constraint firstItem="dLR-s9-g8G" firstAttribute="centerX" secondItem="DAq-Y0-CwS" secondAttribute="centerX" id="rBR-N7-nV8"/>
+                                                    <constraint firstItem="8yG-On-HhO" firstAttribute="centerX" secondItem="DAq-Y0-CwS" secondAttribute="centerX" id="uCG-PN-gQj"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSF-UU-dfT" userLabel="Donation">
@@ -432,9 +636,18 @@ make a donation</string>
         <image name="credit-card" width="30" height="23"/>
         <image name="donation-dog" width="505" height="261"/>
         <image name="footer-puppy" width="300" height="310"/>
+        <image name="icon-bowls-and-cups" width="60" height="60"/>
+        <image name="icon-collars-leashes" width="60" height="60"/>
         <image name="icon-email" width="40" height="32"/>
         <image name="icon-marker" width="22" height="32"/>
+        <image name="icon-medicines" width="60" height="60"/>
+        <image name="icon-pet-food" width="60" height="60"/>
         <image name="icon-phone" width="40" height="32"/>
+        <image name="icon-shampoos" width="60" height="60"/>
+        <image name="icon-sleeping-area" width="60" height="60"/>
+        <image name="icon-toys" width="60" height="60"/>
+        <image name="icon-transportation" width="61" height="60"/>
+        <image name="icon-vitamins" width="60" height="60"/>
         <image name="start-screen-puppy" width="698" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -444,9 +657,6 @@ make a donation</string>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
