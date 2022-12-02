@@ -305,7 +305,7 @@ make a donation</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="phone Stack View">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="Boston Stack View">
                                                         <rect key="frame" x="10" y="402" width="394" height="52.5"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-marker" translatesAutoresizingMaskIntoConstraints="NO" id="eFU-d5-GdU">
