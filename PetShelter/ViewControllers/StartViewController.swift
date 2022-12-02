@@ -12,9 +12,7 @@ class StartViewController: UIViewController {
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var topView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
-    
     @IBOutlet var ourFriendsLabel: UILabel!
-    
     
     private var galleryCollectionView = GalleryCollectionView()
     
@@ -26,7 +24,7 @@ class StartViewController: UIViewController {
         galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
-        galleryCollectionView.heightAnchor.constraint(equalToConstant: 350).isActive = true
+        galleryCollectionView.heightAnchor.constraint(equalToConstant: 700).isActive = true
         
         galleryCollectionView.set(cells: Pet.fetchPets())
         
@@ -59,5 +57,13 @@ class StartViewController: UIViewController {
     }
 
 
+}
+
+struct Constants {
+    static let leftDistanceToView: CGFloat = 15
+    static let rightDistanceToView: CGFloat = 15
+    static let galleryMinimumLineSpacing: CGFloat = 10
+    static let galleryItemWidth = UIScreen.main.bounds.width
+    - Constants.leftDistanceToView - Constants.rightDistanceToView
 }
 
