@@ -469,7 +469,7 @@ make a donation</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-iQ-dsE" userLabel="email Stack View">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-iQ-dsE" userLabel="email Stack View">
                                                         <rect key="frame" x="24" y="145" width="366" height="32"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-email" translatesAutoresizingMaskIntoConstraints="NO" id="nxv-xw-kKs">
@@ -479,15 +479,15 @@ make a donation</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email@shelter.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAx-Z7-be4">
-                                                                <rect key="frame" x="60" y="0.0" width="306" height="32"/>
+                                                                <rect key="frame" x="90" y="0.0" width="276" height="32"/>
                                                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
                                                                 <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-4O-bwX" userLabel="phone Stack View">
-                                                        <rect key="frame" x="30" y="217" width="354" height="32"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-4O-bwX" userLabel="phone Stack View">
+                                                        <rect key="frame" x="24" y="217" width="360" height="32"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-phone" translatesAutoresizingMaskIntoConstraints="NO" id="IHR-wK-ths">
                                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="32"/>
@@ -496,7 +496,7 @@ make a donation</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+13 674 567 75 54" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mr-nf-kCR">
-                                                                <rect key="frame" x="60" y="0.0" width="294" height="32"/>
+                                                                <rect key="frame" x="90" y="0.0" width="270" height="32"/>
                                                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
                                                                 <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -509,39 +509,46 @@ make a donation</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="Boston Stack View">
-                                                        <rect key="frame" x="10" y="402" width="394" height="52.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="Boston Stack View">
+                                                        <rect key="frame" x="33" y="402" width="357" height="52.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-marker" translatesAutoresizingMaskIntoConstraints="NO" id="eFU-d5-GdU">
-                                                                <rect key="frame" x="0.0" y="0.0" width="40" height="52.5"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="40" id="POJ-MV-4H8"/>
-                                                                </constraints>
-                                                            </imageView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9p-dR-TrW" userLabel="Boston Button">
+                                                                <rect key="frame" x="0.0" y="0.0" width="22" height="52.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="icon-marker"/>
+                                                            </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Central Street, Boston (entrance from the store)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-pb-BmO">
-                                                                <rect key="frame" x="60" y="0.0" width="334" height="52.5"/>
+                                                                <rect key="frame" x="72" y="0.0" width="285" height="52.5"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="258" id="3Cg-Ot-OKG"/>
+                                                                </constraints>
                                                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
                                                                 <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wjO-mi-sTS" userLabel="London Stack View">
-                                                        <rect key="frame" x="10" y="494.5" width="394" height="32"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="o0k-VL-E5l" userLabel="London Stack View">
+                                                        <rect key="frame" x="33" y="494.5" width="357" height="32"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-marker" translatesAutoresizingMaskIntoConstraints="NO" id="Y3W-MD-CvH">
-                                                                <rect key="frame" x="0.0" y="0.0" width="40" height="32"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duc-9Q-vFW" userLabel="London Button">
+                                                                <rect key="frame" x="0.0" y="0.0" width="22" height="32"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="40" id="zqs-Mo-SeU"/>
+                                                                    <constraint firstAttribute="width" secondItem="Duc-9Q-vFW" secondAttribute="height" multiplier="22:32" id="zzt-Pa-0Cv"/>
                                                                 </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 South Park, London " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-Pk-iZh">
-                                                                <rect key="frame" x="60" y="0.0" width="334" height="32"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="icon-marker"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 South Park, London " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w24-oG-5T5" userLabel="18 South Park, London">
+                                                                <rect key="frame" x="72" y="0.0" width="285" height="32"/>
                                                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
                                                                 <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="32" id="QCY-HQ-9Mh"/>
+                                                        </constraints>
                                                     </stackView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footer-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-TN-Tmj">
                                                         <rect key="frame" x="30" y="566.5" width="354" height="310"/>
@@ -549,28 +556,29 @@ make a donation</string>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.29379251087554781" green="0.24983001935190269" blue="0.18831619842000594" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
+                                                    <constraint firstItem="SdH-TN-Tmj" firstAttribute="top" secondItem="o0k-VL-E5l" secondAttribute="bottom" constant="40" id="1j1-lH-sel"/>
                                                     <constraint firstAttribute="trailing" secondItem="EEp-iQ-dsE" secondAttribute="trailing" constant="24" id="2VK-H4-pFJ"/>
                                                     <constraint firstItem="SdH-TN-Tmj" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="5tg-uW-9rQ"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="15" id="73s-7v-w9D"/>
-                                                    <constraint firstItem="wjO-mi-sTS" firstAttribute="top" secondItem="hN8-uT-F7O" secondAttribute="bottom" constant="40" id="8zs-ii-i8R"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="top" secondItem="XNh-GQ-M4H" secondAttribute="top" constant="30" id="9vk-Xo-kvw"/>
-                                                    <constraint firstItem="hN8-uT-F7O" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="BCQ-7E-exe"/>
+                                                    <constraint firstItem="hN8-uT-F7O" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="33" id="BCQ-7E-exe"/>
+                                                    <constraint firstItem="G9p-dR-TrW" firstAttribute="width" secondItem="Duc-9Q-vFW" secondAttribute="width" id="E8v-lG-sCv"/>
                                                     <constraint firstItem="THo-3a-eds" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="21" id="Ec0-fI-m4V"/>
                                                     <constraint firstAttribute="trailing" secondItem="SdH-TN-Tmj" secondAttribute="trailing" constant="30" id="Hjf-eo-D4p"/>
                                                     <constraint firstItem="hN8-uT-F7O" firstAttribute="top" secondItem="rs7-Qy-4gd" secondAttribute="bottom" constant="40" id="IwG-Xn-qhH"/>
                                                     <constraint firstItem="rs7-Qy-4gd" firstAttribute="top" secondItem="VDD-4O-bwX" secondAttribute="bottom" constant="40" id="O81-1o-GDH"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="Tvz-rF-BRV"/>
                                                     <constraint firstAttribute="trailing" secondItem="rs7-Qy-4gd" secondAttribute="trailing" constant="15" id="W9H-XV-1yV"/>
+                                                    <constraint firstItem="o0k-VL-E5l" firstAttribute="top" secondItem="hN8-uT-F7O" secondAttribute="bottom" constant="40" id="Wtz-mm-2rU"/>
+                                                    <constraint firstItem="o0k-VL-E5l" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="33" id="Wyk-cZ-Dmx"/>
                                                     <constraint firstItem="EEp-iQ-dsE" firstAttribute="top" secondItem="THo-3a-eds" secondAttribute="bottom" constant="40" id="ZRD-Gr-rT1"/>
                                                     <constraint firstAttribute="trailing" secondItem="VDD-4O-bwX" secondAttribute="trailing" constant="30" id="a0W-it-Vvm"/>
-                                                    <constraint firstAttribute="trailing" secondItem="wjO-mi-sTS" secondAttribute="trailing" constant="10" id="ay2-Ve-GVR"/>
-                                                    <constraint firstAttribute="trailing" secondItem="hN8-uT-F7O" secondAttribute="trailing" constant="10" id="cLo-5y-W7k"/>
+                                                    <constraint firstAttribute="trailing" secondItem="hN8-uT-F7O" secondAttribute="trailing" constant="24" id="cLo-5y-W7k"/>
                                                     <constraint firstItem="VDD-4O-bwX" firstAttribute="top" secondItem="EEp-iQ-dsE" secondAttribute="bottom" constant="40" id="dTQ-PI-jcs"/>
                                                     <constraint firstAttribute="height" constant="878" id="jAe-PH-JiG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="o0k-VL-E5l" secondAttribute="trailing" constant="24" id="mSE-EO-6SM"/>
                                                     <constraint firstAttribute="trailing" secondItem="THo-3a-eds" secondAttribute="trailing" constant="21" id="mUw-eK-3JS"/>
-                                                    <constraint firstItem="VDD-4O-bwX" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="30" id="wwD-9Y-ICM"/>
-                                                    <constraint firstItem="SdH-TN-Tmj" firstAttribute="top" secondItem="wjO-mi-sTS" secondAttribute="bottom" constant="40" id="x1j-SW-gVg"/>
-                                                    <constraint firstItem="wjO-mi-sTS" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="10" id="xK7-ft-3jB"/>
+                                                    <constraint firstItem="VDD-4O-bwX" firstAttribute="leading" secondItem="XNh-GQ-M4H" secondAttribute="leading" constant="24" id="wwD-9Y-ICM"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -628,7 +636,7 @@ make a donation</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-pg-YHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2585.5999999999999" y="-713.3433283358321"/>
+            <point key="canvasLocation" x="2583.75" y="-714.08450704225356"/>
         </scene>
     </scenes>
     <resources>
