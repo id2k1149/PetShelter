@@ -64,7 +64,6 @@ class StartViewController: UIViewController {
     
     
     @IBAction func bostonButtonTapped() {
-        print("goToGoogleMaps")
         goToGoogleMaps()
     }
     
