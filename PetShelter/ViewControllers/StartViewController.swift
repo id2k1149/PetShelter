@@ -60,7 +60,19 @@ class StartViewController: UIViewController {
          
         
     }
-
+    
+    
+    
+    @IBAction func bostonButtonTapped() {
+        print("goToGoogleMaps")
+        goToGoogleMaps()
+    }
+    
+    
+    func goToGoogleMaps() {
+        guard let url = URL(string: "https://www.google.com/maps/place/1+Central+St,+Boston") else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
 
 }
 

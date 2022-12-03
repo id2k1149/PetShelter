@@ -516,6 +516,9 @@ make a donation</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="22" height="52.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="icon-marker"/>
+                                                                <connections>
+                                                                    <action selector="bostonButtonTapped" destination="jSA-pz-NdY" eventType="touchUpInside" id="JOH-fY-ZGO"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Central Street, Boston (entrance from the store)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-pb-BmO">
                                                                 <rect key="frame" x="72" y="0.0" width="285" height="52.5"/>
