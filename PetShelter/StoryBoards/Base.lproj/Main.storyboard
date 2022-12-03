@@ -510,29 +510,31 @@ make a donation</string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="hN8-uT-F7O" userLabel="Boston Stack View">
-                                                        <rect key="frame" x="33" y="402" width="357" height="52.5"/>
+                                                        <rect key="frame" x="33" y="402" width="357" height="66.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9p-dR-TrW" userLabel="Boston Button">
-                                                                <rect key="frame" x="0.0" y="0.0" width="22" height="52.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="22" height="66.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="icon-marker"/>
                                                                 <connections>
                                                                     <action selector="bostonButtonTapped" destination="jSA-pz-NdY" eventType="touchUpInside" id="JOH-fY-ZGO"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Central Street, Boston (entrance from the store)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-pb-BmO">
-                                                                <rect key="frame" x="72" y="0.0" width="285" height="52.5"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="258" id="3Cg-Ot-OKG"/>
-                                                                </constraints>
-                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="23"/>
-                                                                <color key="textColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0z-bO-Dbv" userLabel="Boston address Button">
+                                                                <rect key="frame" x="72" y="0.0" width="285" height="66.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="1 Central Street, Boston (entrance from the store)" titleAlignment="leading">
+                                                                    <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="23"/>
+                                                                    <color key="baseForegroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="bostonButtonTapped" destination="jSA-pz-NdY" eventType="touchUpInside" id="TXg-qL-RlP"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="o0k-VL-E5l" userLabel="London Stack View">
-                                                        <rect key="frame" x="33" y="494.5" width="357" height="32"/>
+                                                        <rect key="frame" x="33" y="508.5" width="357" height="32"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duc-9Q-vFW" userLabel="London Button">
                                                                 <rect key="frame" x="0.0" y="0.0" width="22" height="32"/>
@@ -554,7 +556,7 @@ make a donation</string>
                                                         </constraints>
                                                     </stackView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footer-puppy" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-TN-Tmj">
-                                                        <rect key="frame" x="30" y="566.5" width="354" height="310"/>
+                                                        <rect key="frame" x="30" y="580.5" width="354" height="310"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.29379251087554781" green="0.24983001935190269" blue="0.18831619842000594" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
