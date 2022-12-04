@@ -51,7 +51,7 @@ class GalleryCollectionView: UICollectionView,
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath) as! GalleryCollectionViewCell
         cell.mainImageView.image = UIImage(named: cells[indexPath.row].image)
-        cell.nameLabel.text = cells[indexPath.row].name
+        cell.nameLabel.text = "← \(cells[indexPath.row].name) →" 
         return cell
         
     }
