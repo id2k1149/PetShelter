@@ -20,11 +20,12 @@ class GalleryCollectionView: UICollectionView,
         layout.scrollDirection = .horizontal
         super.init(frame: .zero, collectionViewLayout: layout)
         
-        backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0.96, green: 0.96, blue: 0.96, alpha: 1)
         delegate = self
         dataSource = self
         
-        register(GalleryCollectionViewCell.self, forCellWithReuseIdentifier: GalleryCollectionViewCell.reuseId)
+        register(GalleryCollectionViewCell.self,
+                 forCellWithReuseIdentifier: GalleryCollectionViewCell.reuseId)
         
         translatesAutoresizingMaskIntoConstraints = false
         
@@ -34,8 +35,8 @@ class GalleryCollectionView: UICollectionView,
                                     bottom: 0,
                                     right: Constants.rightDistanceToView)
         
-                showsHorizontalScrollIndicator = false
-                showsVerticalScrollIndicator = false
+        showsHorizontalScrollIndicator = false
+        showsVerticalScrollIndicator = false
     }
     
     func set(cells: [Pet]) {
@@ -51,8 +52,6 @@ class GalleryCollectionView: UICollectionView,
         let cell = dequeueReusableCell(withReuseIdentifier: GalleryCollectionViewCell.reuseId, for: indexPath) as! GalleryCollectionViewCell
         cell.mainImageView.image = UIImage(named: cells[indexPath.row].image)
         cell.nameLabel.text = cells[indexPath.row].name
-        //                cell.smallDescriptionLabel.text = cells[indexPath.row].smallDescription
-        //                cell.costLabel.text = "$\(cells[indexPath.row].cost)"
         return cell
         
     }
@@ -60,7 +59,6 @@ class GalleryCollectionView: UICollectionView,
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: Constants.galleryItemWidth, height: frame.height * 0.5)
         return CGSize(width: Constants.galleryItemWidth, height: Constants.galleryItemWidth)
     }
     
@@ -69,4 +67,12 @@ class GalleryCollectionView: UICollectionView,
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+struct Constants {
+    static let leftDistanceToView: CGFloat = 15
+    static let rightDistanceToView: CGFloat = 15
+    static let galleryMinimumLineSpacing: CGFloat = 10
+    static let galleryItemWidth =
+    UIScreen.main.bounds.width - Constants.leftDistanceToView - Constants.rightDistanceToView
 }

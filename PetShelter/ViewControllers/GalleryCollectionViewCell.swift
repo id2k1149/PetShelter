@@ -13,7 +13,7 @@ class GalleryCollectionViewCell: UICollectionViewCell {
     
     let mainImageView: UIImageView = {
         let imageView = UIImageView()
-//        imageView.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
+        imageView.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -29,17 +29,15 @@ class GalleryCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        addSubview(mainImageView)
         // mainImageView constraints
+        addSubview(mainImageView)
         mainImageView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         mainImageView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         mainImageView.topAnchor.constraint(equalTo: topAnchor, constant: -140).isActive = true
         mainImageView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 1).isActive = true
-//        mainImageView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         
-        
-        addSubview(nameLabel)
         // nameLabel constraints
+        addSubview(nameLabel)
         nameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 120).isActive = true
         nameLabel.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         nameLabel.topAnchor.constraint(equalTo: mainImageView.bottomAnchor, constant: 30).isActive = true

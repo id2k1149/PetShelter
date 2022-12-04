@@ -9,21 +9,23 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+    // MARK: - @IBOutlet
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var startScreenView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
     @IBOutlet var ourFriendsLabel: UILabel!
-    
     @IBOutlet var footerView: UIView!
     
-    
+    // MARK: - private var
     private var galleryCollectionView = GalleryCollectionView()
     
+    // MARK: - override func
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
     }
     
+    // MARK: - @IBAction
     @IBAction func bostonButtonTapped() {
         guard let url = URL(string: "https://www.google.com/maps/place/1+Central+St,+Boston") else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -74,12 +76,3 @@ extension StartViewController {
         
     }
 }
-
-struct Constants {
-    static let leftDistanceToView: CGFloat = 15
-    static let rightDistanceToView: CGFloat = 15
-    static let galleryMinimumLineSpacing: CGFloat = 10
-    static let galleryItemWidth = UIScreen.main.bounds.width
-    - Constants.leftDistanceToView - Constants.rightDistanceToView
-}
-
