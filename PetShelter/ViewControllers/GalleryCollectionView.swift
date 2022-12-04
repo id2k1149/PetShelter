@@ -44,7 +44,7 @@ class GalleryCollectionView: UICollectionView,
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-                cells.count
+        cells.count
     }
     
     

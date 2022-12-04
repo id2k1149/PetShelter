@@ -160,12 +160,30 @@ are looking for a house</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44a-Ed-Zbh">
+                                                        <rect key="frame" x="77" y="697" width="260" height="52"/>
+                                                        <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="Jdk-jf-CuX"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="aEG-3Z-ODs"/>
+                                                            <constraint firstAttribute="height" constant="52" id="bT1-yE-C5e"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Get to know the rest" cornerStyle="capsule">
+                                                            <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="22"/>
+                                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.95999999999999996" green="0.95999999999999996" blue="0.95999999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstItem="44a-Ed-Zbh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fpf-2w-5BG" secondAttribute="leading" constant="30" id="2bm-Xd-gDM"/>
                                                     <constraint firstAttribute="height" constant="791" id="4g2-Rf-jRK"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="44a-Ed-Zbh" secondAttribute="trailing" constant="30" id="nv3-EX-woE"/>
                                                     <constraint firstItem="XFx-Xw-q1T" firstAttribute="centerX" secondItem="fpf-2w-5BG" secondAttribute="centerX" id="oTt-rn-vK5"/>
+                                                    <constraint firstAttribute="bottom" secondItem="44a-Ed-Zbh" secondAttribute="bottom" constant="42" id="uou-7o-7qg"/>
                                                     <constraint firstItem="XFx-Xw-q1T" firstAttribute="top" secondItem="fpf-2w-5BG" secondAttribute="top" constant="42" id="vd4-tF-QKp"/>
+                                                    <constraint firstItem="44a-Ed-Zbh" firstAttribute="centerX" secondItem="fpf-2w-5BG" secondAttribute="centerX" id="yk2-OH-4Yb"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAq-Y0-CwS" userLabel="Help">

@@ -70,7 +70,7 @@ extension StartViewController {
         galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
-        galleryCollectionView.heightAnchor.constraint(equalToConstant: 600).isActive = true
+        galleryCollectionView.heightAnchor.constraint(equalToConstant: 550).isActive = true
         
         galleryCollectionView.set(cells: Pet.fetchPets())
         
