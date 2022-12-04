@@ -32,9 +32,21 @@ class GalleryCollectionViewCell: UICollectionViewCell {
         button.setTitleColor(.black, for: .normal)
         button.layer.borderColor = #colorLiteral(red: 0.95, green: 0.8, blue: 0.7, alpha: 1)
         button.layer.borderWidth = 2
+//        button.addTarget(GalleryCollectionViewCell.self,
+//                         action: #selector(learnMoreButtonAction),
+//                         for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
+    
+//    @objc func learnMoreButtonAction(sender: UIButton!) {
+//        print("Button Clicked")
+//        var alertView = UIAlertView()
+//        alertView.addButton(withTitle: "Ok")
+//        alertView.title = "title"
+//        alertView.message = "message"
+//        alertView.show()
+//    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
