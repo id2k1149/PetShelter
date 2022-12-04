@@ -33,7 +33,7 @@ class GalleryCollectionViewCell: UICollectionViewCell {
         addSubview(mainImageView)
         mainImageView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         mainImageView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        mainImageView.topAnchor.constraint(equalTo: topAnchor, constant: -140).isActive = true
+        mainImageView.topAnchor.constraint(equalTo: topAnchor, constant: -80).isActive = true
         mainImageView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 1).isActive = true
         
         // nameLabel constraints

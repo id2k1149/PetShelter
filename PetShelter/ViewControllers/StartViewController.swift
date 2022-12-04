@@ -13,6 +13,7 @@ class StartViewController: UIViewController {
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var startScreenView: UIView!
     @IBOutlet var makeFriendButton: UIButton!
+    @IBOutlet var getToKnowButton: UIButton!
     @IBOutlet var ourFriendsLabel: UILabel!
     @IBOutlet var footerView: UIView!
     
@@ -64,13 +65,15 @@ extension StartViewController {
         
         makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
         
+        getToKnowButton.layer.cornerRadius = makeFriendButton.frame.height / 2
+        
         //galleryCollectionView
         view.addSubview(galleryCollectionView)
         
         galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
-        galleryCollectionView.heightAnchor.constraint(equalToConstant: 550).isActive = true
+        galleryCollectionView.heightAnchor.constraint(equalToConstant: 540).isActive = true
         
         galleryCollectionView.set(cells: Pet.fetchPets())
         

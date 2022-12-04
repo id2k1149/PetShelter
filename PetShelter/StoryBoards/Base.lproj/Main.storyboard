@@ -164,12 +164,11 @@ are looking for a house</string>
                                                         <rect key="frame" x="77" y="697" width="260" height="52"/>
                                                         <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="Jdk-jf-CuX"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="aEG-3Z-ODs"/>
                                                             <constraint firstAttribute="height" constant="52" id="bT1-yE-C5e"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get to know the rest" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Get to know the rest">
                                                             <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="22"/>
                                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -651,6 +650,7 @@ make a donation</string>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
                         <outlet property="footerView" destination="XNh-GQ-M4H" id="qeY-7h-xKn"/>
+                        <outlet property="getToKnowButton" destination="44a-Ed-Zbh" id="ajp-Ca-JMh"/>
                         <outlet property="makeFriendButton" destination="vEL-6i-JoW" id="8er-ZO-2Zr"/>
                         <outlet property="ourFriendsLabel" destination="XFx-Xw-q1T" id="C32-CX-z1q"/>
                         <outlet property="scrollView" destination="ec2-M3-zMx" id="juz-oR-Ehp"/>
