@@ -60,7 +60,8 @@ class GalleryCollectionView: UICollectionView,
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: Constants.galleryItemWidth, height: frame.height * 0.5)
+//        return CGSize(width: Constants.galleryItemWidth, height: frame.height * 0.5)
+        return CGSize(width: Constants.galleryItemWidth, height: Constants.galleryItemWidth)
     }
     
     

@@ -21,19 +21,21 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.addSubview(galleryCollectionView)
-        
-        galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
-        galleryCollectionView.heightAnchor.constraint(equalToConstant: 600).isActive = true
-        
-        galleryCollectionView.set(cells: Pet.fetchPets())
-        
-        makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
-        
-        //
+        updateUI()
+    }
+    
+    @IBAction func bostonButtonTapped() {
+        guard let url = URL(string: "https://www.google.com/maps/place/1+Central+St,+Boston") else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+       
+    }
+}
+
+// MARK: - Private Methods
+extension StartViewController {
+    
+    private func updateUI() {
+        // set startBackgound
         guard let startBackgound = UIImage(named: "start-screen-background") else { return }
         scrollView.backgroundColor = UIColor(patternImage: startBackgound)
         startScreenView.backgroundColor = UIColor(patternImage: startBackgound)
@@ -57,22 +59,20 @@ class StartViewController: UIViewController {
 
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
-         
+        
+        makeFriendButton.layer.cornerRadius = makeFriendButton.frame.height / 2
+        
+        //galleryCollectionView
+        view.addSubview(galleryCollectionView)
+        
+        galleryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        galleryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        galleryCollectionView.topAnchor.constraint(equalTo: ourFriendsLabel.bottomAnchor, constant: 40).isActive = true
+        galleryCollectionView.heightAnchor.constraint(equalToConstant: 600).isActive = true
+        
+        galleryCollectionView.set(cells: Pet.fetchPets())
         
     }
-    
-    
-    
-    @IBAction func bostonButtonTapped() {
-        goToGoogleMaps()
-    }
-    
-    
-    func goToGoogleMaps() {
-        guard let url = URL(string: "https://www.google.com/maps/place/1+Central+St,+Boston") else { return }
-        UIApplication.shared.open(url, options: [:], completionHandler: nil)
-    }
-
 }
 
 struct Constants {
